@@ -17,11 +17,16 @@
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
 }

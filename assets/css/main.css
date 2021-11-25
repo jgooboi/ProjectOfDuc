@@ -15,8 +15,7 @@
 }
 
 .header__logo-img {
-    width: 160px;
-    height: 38px;
+    width: 67px;
 }
 
 .header__nav-list {
@@ -406,7 +405,7 @@ li.header__new-label > a::after {
     display: block;
 }
 
-.header__navbar-item {
+.header__navbar-list .header__navbar-item:first-child {
     margin-bottom: 30px;
 }
 
