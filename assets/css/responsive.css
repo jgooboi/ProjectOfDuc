@@ -1,0 +1,89 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .slider__category-item {
+        padding: 15px;
+    }
+
+    .container__banner-view {
+        margin-top: 20px;
+    }
+
+    .container__tour-item {
+        padding: 20px 0;
+    }
+
+    .container__discover{
+        flex-direction: column;
+    }
+    
+    .footer__top-contact {
+        margin-top: 40px;
+    }
+
+    .fixed-bottom {
+        display: none;
+    }
+
+    .footer__bottom > .footer__bottom-item {
+        text-align: center;
+    }
+
+    .footer__top-title {
+        text-align: center;
+    }
+    
+    .footer__top-contact-input,
+    .footer__top-contact-btn {
+        width: 100%;
+    }
+
+    .container__beaches-slider {
+        padding: 0;
+    }
+
+    .container__beaches-countdown {
+        margin: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .footer-wrap {
+        padding: 60px 0 80px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header {
+        padding: 20px;
+    }
+
+    .slider-content {
+        padding: 270px 28px 200px;
+    }
+
+    .container-section {
+        padding: 0 30px;
+    }
+    
+    .container__banner-wrap {
+        padding: 50px 20px;
+    }
+
+    .footer__middle {
+        padding: 40px;
+    }
+
+    .footer__top-contact-btn {
+        margin-top: 10px;
+    }
+}
