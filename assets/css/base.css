@@ -40,6 +40,14 @@ html {
     border-radius: 30px;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2{
+    flex: 2;
+}
+
 h4 {
     font-size: 2rem;
     line-height: 2rem;

@@ -19,11 +19,11 @@
 }
 
 .header__nav-list {
-    flex: 1;
+    align-items: center;
     display: inline-block;
     list-style: none;
     margin: 0;
-    padding-left: 40px;
+    display: flex;
 }
 
 .header__nav-list a {
@@ -158,7 +158,7 @@ li.header__new-label > a::after {
 .header__nav-item:last-child .header__nav-link {
     display: block;
     padding: 11px 16px 9px;
-    background-color: var(--purple-color);
+    background-color: var(--orange-color);
     border-radius: 30px;
 }
 /* END HEADER */
@@ -1026,29 +1026,16 @@ li.header__new-label > a::after {
 }
 
 /* Big red alert! */
-.onTopIcon {
-    font-size: 48px;
-    color: #ba3329;
+
+ .fixed-bottom-price {
+    display: block;
+    padding: 11px 16px 9px;
+    background-color: var(--orange-color);
+    border-radius: 30px;
+    text-decoration: none;
  }
-#scrollUp {
-    background: #fc7c7c none repeat scroll 0 0;
-    bottom: 85px;
-    color: #ffffff;
-    cursor: pointer;
-    display: none;
-    font-size: 20px;
-    height: 45px;
-    line-height: 44px;
-    position: fixed;
-    right: 12px;
-    text-align: center;
-    width: 45px;
-    z-index: 9999;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    position: fixed;
-    z-index: 2147483647;
-    display: none;
-}
+ .stickBook {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 500;
+ }
