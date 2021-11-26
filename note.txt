@@ -1,0 +1,4 @@
+-bỏ ô search
+-footer giữ phần trong
+- our packages -> our tours
+- float button -> booktour
