@@ -312,14 +312,16 @@ li.header__new-label > a::after {
 }
 /* END SLIDER HOME */
 .slider {
-    background: url(../img/slider.jpg) bottom center / cover no-repeat;
+    background: url(../img/about-us.jpg) bottom center / cover no-repeat;
     margin-top: calc(0px - var(--header-height));
+    background-size: cover;
+    background-position: center center;
     filter: brightness(96%);
 }
 
 .slider-content {
     text-align: center;
-    padding: 220px 0 50px;
+    padding: 242px 0 20px;
     position: relative;
     z-index: 1;
 }
