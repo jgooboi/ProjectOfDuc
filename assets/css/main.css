@@ -161,160 +161,7 @@ li.header__new-label > a::after {
     background-color: var(--purple-color);
     border-radius: 30px;
 }
-
-/* Header - Sidebar */
-.sidebar {
-    -webkit-tap-highlight-color: transparent;
-}
-
-.header__sidebar-btn {
-    padding: 16px;
-    cursor: pointer;
-}
-
-.header__sidebar-icon {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-}
-
-.header__sidebar-input:checked ~ .header__sidebar-overlay {
-    display: block;
-}
-
-.header__sidebar-input:checked ~ .header__sidebar {
-    transform: translateX(0%);
-    opacity: 1;
-}
-
-.header__sidebar-overlay {
-    position: fixed;
-    z-index: 90;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.03);
-    display: none;
-    animation: fadein linear 0.2s;
-}
-
-.header__sidebar {
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 340px;
-    max-width: 100%;
-    background-color: var(--white-color);
-    overflow-y: auto;
-    opacity: 0;
-    transform: translateX(100%);
-    transition: transform ease 0.8s, opacity ease 0.8s;
-}
-
-.header__sidebar-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45px;
-    height: 45px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.header__sidebar-close-icon {
-    width: 25px;
-    height: 25px;
-}
-
-.header__sidebar-wrap {
-    padding: 20px;
-    width: 100%;
-}
-
-.header__sidebar-packages {
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.header__sidebar-packages-title > h5 {
-    color: #9a9a9a;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    font-weight: 300;
-    margin-bottom: 10px;
-}
-
-.header__sidebar-packages-title > span {
-    font-size: 2.6rem;
-    line-height: 2.6rem;
-    font-weight: 700;
-    color: var(--text-color);
-}
-
-.header__sidebar-package-item {
-    display: flex;
-    align-items: center;
-    padding: 20px 15px;
-}
-
-.header__sidebar-package-img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-}
-
-.header__sidebar-package-content {
-    text-align: left;
-}
-
-.header__sidebar-package-city {
-    text-decoration: none;
-    font-size: 2rem;
-    line-height: 2rem;
-    color: var(--text-color);
-    display: block;
-    padding-top: 4px;
-}
-
-.header__sidebar-package-area {
-    text-decoration: none;
-    display: flex;
-    margin: 10px 0 20px;
-    letter-spacing: 1.6px;
-}
-
-.header__sidebar-package-icon {
-    width: 14px;
-    height: 14px;
-    margin-right: 5px;
-}
-
-.header__sidebar-package-area > h5 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: #9a9a9a;
-    font-weight: 400;
-}
-
-.header__sidebar-package-price {
-    text-decoration: none;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    color: var(--white-color);
-    letter-spacing: 1.2px;
-    display: inline-block;
-    padding: 11px 18px;
-    border-radius: 25px;
-}
-
-.header__sidebar-proposal {
-    width: 260px;
-    height: 260px;
-    margin: 20px 10px 40px;
-}
+/* END HEADER */
 
 /* Navbar */
 .navbar {
@@ -422,6 +269,7 @@ li.header__new-label > a::after {
     text-transform: uppercase;
     letter-spacing: 1.6px;
 }
+/* END NAVBAR */
 
 /* Slider */
 .slider {
@@ -529,6 +377,7 @@ li.header__new-label > a::after {
     color: var(--white-color);
     margin-top: 12px;
 }
+/* END Slider */
 
 /* Content proposals */
 .container__proposals {
@@ -699,6 +548,7 @@ li.header__new-label > a::after {
     letter-spacing: 1.6px;
     -webkit-tap-highlight-color: transparent;
 }
+/* END Container Proposals */
 
 /* Container beaches */
 .container__beaches-content {
@@ -822,6 +672,7 @@ li.header__new-label > a::after {
     margin: 6px 0 30px;
     text-transform: uppercase;
 }
+/* END Container Beaches */
 
 /* Container Tours */
 .container__tour-item {
@@ -856,6 +707,7 @@ li.header__new-label > a::after {
     text-decoration: none;
     color: var(--blue-color);
 }
+/* END Container Tour */
 
 /* Container Discover */
 .container__discover {
@@ -899,6 +751,7 @@ li.header__new-label > a::after {
     border-radius: 25px;
     -webkit-tap-highlight-color: transparent;
 }
+/* ENd Container Discover */
 
 /* Container Promotions */
 .container__promotions {
@@ -1085,6 +938,7 @@ li.header__new-label > a::after {
     margin-top: 20px;
     -webkit-tap-highlight-color: transparent;
 }
+/* END Container Promotion */
 
 /* Footer */
 .footer {
@@ -1226,6 +1080,7 @@ li.header__new-label > a::after {
     text-align: right;
 }
 
+/* END FOOTER */
 /* Fixed bottom */
 .fixed-bottom {
     position: fixed;
