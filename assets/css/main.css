@@ -92,7 +92,7 @@ li.header__best-label a::after {
     line-height: 1rem;
     color: var(--white-color);
     display: inline-block;
-    background-color: var(--blue-color);
+    background-color: var(--orange-color);
     padding: 3px 5px;
     border-radius: 3px;
     float: right;
@@ -385,7 +385,7 @@ li.header__new-label > a::after {
     right: 0;
     bottom: 4px;
     left: 0;
-    background-color: var(--blue-color);
+    background-color: var(--orange-color);
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -425,7 +425,7 @@ li.header__new-label > a::after {
     text-decoration: none;
     font-size: 1.3rem;
     line-height: 1.3rem;
-    color: var(--blue-color);
+    color: var(--orange-color);
     display: block;
     background-color: var(--white-color);
     padding: 9px 20px;
@@ -566,7 +566,7 @@ li.header__new-label > a::after {
 }
 
 .container__beaches-countdown-item {
-    background-color: var(--blue-color);
+    background-color: var(--orange-color);
     color: var(--white-color);
     letter-spacing: 1.4px;
     text-align: center;
@@ -637,7 +637,7 @@ li.header__new-label > a::after {
 .container__tour-item-link {
     font-size: 1.4rem;
     text-decoration: none;
-    color: var(--blue-color);
+    color: var(--orange-color);
 }
 /* END Container Tour */
 
@@ -920,7 +920,7 @@ li.header__new-label > a::after {
 .footer__top-contact-btn {
     border: none;
     padding: 10px 22px;
-    background-color: var(--blue-color);
+    background-color: var(--orange-color);
     color: var(--white-color);
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -938,9 +938,7 @@ li.header__new-label > a::after {
 }
 
 .footer__middle-logo > img {
-    width: 150px;
-    height: 36px;
-    margin-top: 10px;
+    width: 90px;
 }
 
 .footer__middle-text {
@@ -997,7 +995,7 @@ li.header__new-label > a::after {
 }
 
 .footer__bottom {
-    background-color: var(--blue-color);
+    background-color: var(--orange-color);
     align-items: center;
 }
 
@@ -1018,60 +1016,33 @@ li.header__new-label > a::after {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    z-index: 2;
+    z-index: 3;
 }
 
-.fixed-bottom-price {
-    text-decoration: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 21px 15px 16px 17px;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 1px;
+/* Big red alert! */
+.onTopIcon {
+    font-size: 48px;
+    color: #ba3329;
+ }
+#scrollUp {
+    background: #fc7c7c none repeat scroll 0 0;
+    bottom: 85px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    height: 45px;
+    line-height: 44px;
+    position: fixed;
+    right: 12px;
     text-align: center;
-    color: var(--white-color);
-    background-color: var(--text-color);
-    border-radius: 100%;
-}
-
-.fixed-bottom-price::after {
-    content: "$";
-    color: var(--white-color);
-    font-size: 0.8rem;
-    font-weight: 100;
-    line-height: 0.8rem;
-    position: absolute;
-    top: 16px;
-    left: 13px;
-}
-
-.fixed-bottom-title {
-    position: absolute;
-    top: -2px;
-    right: 4px;
-    font-size: 0.8rem;
-    line-height: 0.8rem;
-    color: var(--white-color);
-    border-radius: 0px;
-    padding: 4px 5px;
-    background-color: var(--pink-color);
-}
-
-.fixed-bottom-icon {
-    position: absolute;
-    bottom: 0;
-    right: 50px;
-    width: 35px;
-    height: 35px;
-    background-color: var(--text-color);
-    border-radius: 100%;
-    display: flex;
-}
-
-.fixed-bottom-icon > img {
-    margin: auto;
-    width: 15px;
-    height: 15px;
+    width: 45px;
+    z-index: 9999;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: fixed;
+    z-index: 2147483647;
+    display: none;
 }
