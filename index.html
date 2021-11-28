@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css"> -->
     <script src="https://kit.fontawesome.com/c2bdfb3c2d.js" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
@@ -119,33 +119,49 @@
             </div>
         </div>
 
-        <div class="slider-container ">
-            <div class="slider-home slider-1 fade">
-                <div class="grid wide">
-                    <div class="slider-home-content">
-                        <h1>Enjoy every <span>Moments</span></h1>
-                        <h4>SLIDER 1</h4>
+        <div class="slider-container">
+
+            <div class="slider-container__list">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slider-home slider-1 first">
+                    <div class="grid wide">
+                        <div class="slider-home-content">
+                            <h1>Enjoy every <span>Moments</span></h1>
+                            <h4>SLIDER 1</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="slider-home slider-2 fade">
-                <div class="grid wide">
-                    <div class="slider-home-content">
-                        <h1>Enjoy every <span>Moments</span></h1>
-                        <h4>Slider 2</h4>
+                <div class="slider-home slider-2 ">
+                    <div class="grid wide">
+                        <div class="slider-home-content">
+                            <h1>Enjoy every <span>Moments</span></h1>
+                            <h4>Slider 2</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="slider-home slider-3 fade">
-                <div class="grid wide">
-                    <div class="slider-home-content">
-                        <h1>Enjoy every <span>Moments</span></h1>
-                        <h4>Slider 3</h4>
+                <div class="slider-home slider-3 ">
+                    <div class="grid wide">
+                        <div class="slider-home-content">
+                            <h1>Enjoy every <span>Moments</span></h1>
+                            <h4>Slider 3</h4>
+                        </div>
                     </div>
                 </div>
+                <!-- Automatic slider -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                <!-- Manual Slider -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
 
         <div class="container">
@@ -342,10 +358,8 @@
                                     <h2>The Best <span>Beaches</span></h2>
                                 </div>
                                 <div class="container__beaches-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna
-                                        dictum neque molestie ultricies mauris ac.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna
-                                        dictum neque molestie ultricies mauris ac.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.</p>
                                 </div>
                                 <div class="container__beaches-price">
                                     <span class="container__beaches-price-old">800</span>
@@ -397,8 +411,7 @@
                                 <img src="./assets/img/tour-1.png" alt="" class="container__tour-item-img">
                                 <div class="container__tour-item-content">
                                     <h3 class="container__tour-item-title">World Tour</h3>
-                                    <p class="container__tour-item-decs">Lorem ipsum dolor sit amet conse ctetur adip
-                                        iscing elit Proin rhonc us urna dictum.</p>
+                                    <p class="container__tour-item-decs">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
                                     <a href="" class="container__tour-item-link">View More</a>
                                 </div>
                             </div>
@@ -408,8 +421,7 @@
                                 <img src="./assets/img/tour-2.png" alt="" class="container__tour-item-img">
                                 <div class="container__tour-item-content">
                                     <h3 class="container__tour-item-title">Cruises</h3>
-                                    <p class="container__tour-item-decs">Lorem ipsum dolor sit amet conse ctetur adip
-                                        iscing elit Proin rhonc us urna dictum.</p>
+                                    <p class="container__tour-item-decs">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
                                     <a href="" class="container__tour-item-link">View More</a>
                                 </div>
                             </div>
@@ -419,8 +431,7 @@
                                 <img src="./assets/img/tour-3.png" alt="" class="container__tour-item-img">
                                 <div class="container__tour-item-content">
                                     <h3 class="container__tour-item-title">Best Tours</h3>
-                                    <p class="container__tour-item-decs">Lorem ipsum dolor sit amet conse ctetur adip
-                                        iscing elit Proin rhonc us urna dictum.</p>
+                                    <p class="container__tour-item-decs">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
                                     <a href="" class="container__tour-item-link">View More</a>
                                 </div>
                             </div>
@@ -443,8 +454,7 @@
                             <div class="container__promotion-item">
                                 <div class="container__promotion-img-wrap">
                                     <img src="./assets/img/promotion-1.jpg" class="container__promotion-img">
-                                    <a href="" class="container__promotion-icon"
-                                        style="background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);">
+                                    <a href="" class="container__promotion-icon" style="background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);">
                                         <img src="./assets/img/destination-icon-1.png">
                                     </a>
                                 </div>
@@ -454,8 +464,7 @@
                                             <h4>Berlin</h4>
                                         </a>
                                         <a href="" class="container__promotion-area">
-                                            <img src="./assets/img/pin_icon.png" alt=""
-                                                class="container__promotion-destination-icon">
+                                            <img src="./assets/img/pin_icon.png" alt="" class="container__promotion-destination-icon">
                                             <h5>Europe</h5>
                                         </a>
                                     </div>
@@ -476,11 +485,9 @@
                                         </div>
                                     </div>
                                     <div class="container__promotion-footer">
-                                        <p class="container__promotion-description">Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum
-                                            scelerisque.</p>
-                                        <a href=""
-                                            class="container__promotion-details-link background--yellow">DETAILS</a>
+                                        <p class="container__promotion-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                                        </p>
+                                        <a href="" class="container__promotion-details-link background--yellow">DETAILS</a>
                                     </div>
                                 </div>
                             </div>
@@ -490,8 +497,7 @@
                             <div class="container__promotion-item">
                                 <div class="container__promotion-img-wrap">
                                     <img src="./assets/img/promotion-2.jpg" class="container__promotion-img">
-                                    <a href="" class="container__promotion-icon"
-                                        style="background: linear-gradient(to right, #f76570 0%, #f78d65 100%)">
+                                    <a href="" class="container__promotion-icon" style="background: linear-gradient(to right, #f76570 0%, #f78d65 100%)">
                                         <img src="./assets/img/destination-icon-3.png">
                                     </a>
                                 </div>
@@ -501,8 +507,7 @@
                                             <h4>Hong Kong</h4>
                                         </a>
                                         <a href="" class="container__promotion-area">
-                                            <img src="./assets/img/pin_icon.png" alt=""
-                                                class="container__promotion-destination-icon">
+                                            <img src="./assets/img/pin_icon.png" alt="" class="container__promotion-destination-icon">
                                             <h5>Asia</h5>
                                         </a>
                                     </div>
@@ -523,11 +528,9 @@
                                         </div>
                                     </div>
                                     <div class="container__promotion-footer">
-                                        <p class="container__promotion-description">Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum
-                                            scelerisque.</p>
-                                        <a href=""
-                                            class="container__promotion-details-link background--pink">DETAILS</a>
+                                        <p class="container__promotion-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                                        </p>
+                                        <a href="" class="container__promotion-details-link background--pink">DETAILS</a>
                                     </div>
                                 </div>
                             </div>
@@ -537,8 +540,7 @@
                             <div class="container__promotion-item">
                                 <div class="container__promotion-img-wrap">
                                     <img src="./assets/img/promotion-3.jpg" class="container__promotion-img">
-                                    <a href="" class="container__promotion-icon"
-                                        style="background: linear-gradient(to right, #ba71da 0%, #da717b 100%);">
+                                    <a href="" class="container__promotion-icon" style="background: linear-gradient(to right, #ba71da 0%, #da717b 100%);">
                                         <img src="./assets/img/destination-icon-6.png">
                                     </a>
                                 </div>
@@ -548,8 +550,7 @@
                                             <h4>San Francisco</h4>
                                         </a>
                                         <a href="" class="container__promotion-area">
-                                            <img src="./assets/img/pin_icon.png" alt=""
-                                                class="container__promotion-destination-icon">
+                                            <img src="./assets/img/pin_icon.png" alt="" class="container__promotion-destination-icon">
                                             <h5>United States</h5>
                                         </a>
                                     </div>
@@ -570,11 +571,9 @@
                                         </div>
                                     </div>
                                     <div class="container__promotion-footer">
-                                        <p class="container__promotion-description">Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum
-                                            scelerisque.</p>
-                                        <a href=""
-                                            class="container__promotion-details-link background--purple">DETAILS</a>
+                                        <p class="container__promotion-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                                        </p>
+                                        <a href="" class="container__promotion-details-link background--purple">DETAILS</a>
                                     </div>
                                 </div>
                             </div>
@@ -606,7 +605,7 @@
                             </form>
                         </div>
                     </div> -->
-    
+
                     <div class="footer__middle row">
                         <div class="col l-6 m-12 c-12">
                             <div class="footer__middle-content">
