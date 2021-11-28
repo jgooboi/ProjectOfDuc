@@ -331,12 +331,15 @@ li.header__new-label>a::after {
     display: none;
 }
 
+.slider-container {}
+
 .slider-container__list {
     display: flex;
     flex-flow: row;
     height: 100%;
     width: 100%;
     overflow-x: auto;
+    overflow: hidden;
 }
 
 
@@ -345,7 +348,7 @@ li.header__new-label>a::after {
 .navigation-manual {
     position: absolute;
     width: 100%;
-    margin-top: 40%;
+    bottom: 36%;
     display: flex;
     justify-content: center;
 }
@@ -387,7 +390,7 @@ li.header__new-label>a::after {
 .navigation-auto {
     position: absolute;
     width: 100%;
-    margin-top: 40%;
+    bottom: 36%;
     display: flex;
     justify-content: center;
 }
