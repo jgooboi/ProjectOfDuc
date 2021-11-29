@@ -492,6 +492,10 @@ li.header__new-label>a::after {
 
 /* About Us */
 
+.about-container {
+    margin-top: 50px;
+}
+
 .about-us {
     font-size: 1.4rem;
     color: #a3a3a3;
@@ -633,8 +637,109 @@ img.hover-shadow {
 }
 
 .info-container {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 60px;
+    border-radius: 5px;
+    background-color: #555555;
+}
+
+.info-column img {
+    width: 30px;
+    height: 100%;
+}
+
+.info-column {
+    display: flex;
+    padding: 20px 0;
+}
+
+.info-column__text {
+    padding-left: 15px;
+    color: #fff;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.info-column__text h3 {
+    font-weight: lighter;
+    line-height: 1.8rem;
+}
+
+.info-column__text p {
+    padding-top: 5px;
+}
+
+.contact-container {
+    margin-top: 30px;
+}
+
+.contact-container p,
+.contact-container h3 {
+    text-align: center;
+}
+
+.contact-text p {
+    color: #9a9a9a;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.contact-text h3 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #555555;
+}
+
+.contact-form {}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #f9f9f9;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 20px;
+    -webkit-appearance: none;
+    color: #a3a3a3;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form label {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    color: #9a9a9a;
+}
+
+.contact-form .submit-btn {
+    width: 100%;
+    margin: auto;
+    background-color: #14b9d5;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 20px;
+    -webkit-appearance: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact-form .submit-btn:hover {
+    opacity: 0.9;
 }
 
 
