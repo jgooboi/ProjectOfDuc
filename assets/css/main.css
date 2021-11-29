@@ -1533,7 +1533,7 @@ img.hover-shadow {
 }
 
 .first-paragraph{
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .bigFirstLetter {
@@ -1542,10 +1542,6 @@ img.hover-shadow {
     font-size: 70px;
     margin-bottom: 0;
     line-height: 30px;
-}
-
-.about-us {
-    margin-top: 40px;
 }
 
 .logo-container{
