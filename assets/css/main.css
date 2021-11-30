@@ -726,6 +726,81 @@ li.header__new-label>a::after {
 /* End About us */
 
 
+/* FAQ START */
+
+.faq-container p {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #9a9a9a;
+    display: inline-block;
+    margin: 15px;
+}
+
+.faq-container h3 {
+    font-size: 2.3rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.faq-list-item__title-icon {
+    background-color: rgb(221, 153, 51);
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.collapsible {
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    height: auto;
+}
+
+.collapsible.collapsed {
+    height: 0;
+}
+
+.partner>div:first-child {
+    background-color: rgb(129, 215, 66);
+}
+
+.faq-list-item__title-icon img {
+    width: 70%;
+    margin-top: 3px;
+}
+
+.faq-content {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.faq-content p {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: #9a9a9a;
+    display: inline-block;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    animation: fadeIn ease 1s forwards;
+}
+
+
+/* END FAQ START */
+
+
 /* Content proposals */
 
 .container__proposals {
