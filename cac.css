@@ -1,0 +1,279 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 800px;
+}
+
+.closeImg {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.closeImg:hover,
+.closeImg:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prevImg,
+.nextImg {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 12px;
+    transform: translateY(-250%);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.slideImg {
+    display: none;
+}
+
+.slideImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbNail-modal {
+    display: flex;
+}
+
+.thumbNail-modal img {
+    width: 100%;
+    height: 100%;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+img.active,
+img.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nextImg {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* modal galerry */
+
+.modal-image {
+    margin-bottom: 10px;
+}
+
+.gallery-modal {
+    display: flex;
+}
+
+.gallery-modal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-img__container {
+    cursor: pointer;
+}
+
+.thumbNail-modal__item {
+    cursor: pointer;
+}
+
+.gap-img {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+
+
+/* end modal gallery */
+
+.about-us-banner {
+    height: 600px;
+    background: url(../img/slide-pk-4.jpg) bottom center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-promotion-container {}
+
+.banner-promotion {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.banner-promotion p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #9a9a9a;
+}
+
+.banner-promotion h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.banner-promotion-item {
+    font-size: 1.6rem;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted #f1f1f1;
+}
+
+.banner-video {
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/slide-pk-1.jpg?id=1652) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+}
+
+.banner-video__play-btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.bannver-video__play-btn-icon {
+    width: 70px;
+}
+
+.modal-video {
+    display: none;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(101, 100, 96, 1);
+    transition: fadeIn 2s linear;
+}
+
+.video-popup {
+    display: none;
+    z-index: 12;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: none;
+    transition: fadeIn 2s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.visible {
+    display: block;
+}
+
+.close-video {
+    position: absolute;
+    right: 8px;
+    top: -15px;
+    font-weight: 900;
+    font-size: 28px;
+    color: #fff;
+    padding: 5px 10px;
+    border-bottom: none;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.close-video:hover {
+    opacity: 1;
+}
+
+.video-wrapper {
+    width: 1000px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 55.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
