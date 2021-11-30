@@ -505,7 +505,7 @@ li.header__new-label>a::after {
 /* service list start */
 
 .service-list__item {
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex !important;
     justify-content: space-between;
 }
@@ -727,6 +727,10 @@ li.header__new-label>a::after {
 
 
 /* FAQ START */
+
+.mt-50{
+    margin-top: 50px !important;
+}
 
 .faq-container p {
     font-size: 1.6rem;
