@@ -502,6 +502,7 @@ li.header__new-label>a::after {
 
 .service-list__item {
     margin-top: 50px;
+    padding: 0 20px;
     display: flex !important;
     justify-content: space-between;
 }
