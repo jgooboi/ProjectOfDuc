@@ -49,37 +49,3 @@ function showSlidesImg(n) {
 // End Image Modal About Us
 
 // embed video
-document.addEventListener("DOMContentLoaded", function(event) {
-    // Watch More Link click handlers
-    const $popup = document.querySelector('.video-popup');
-    const $modal = document.querySelector('#modal-video');
-    const $closeIcon = document.querySelector('.close-video');
-    const $watchMoreLink = document.querySelector('.banner-video__play-btn');
-    const $iframe = document.getElementById('iframe-video');
-
-    $watchMoreLink.addEventListener('click', function(e) {
-        $popup.style.display = 'block';
-        $modal.style.display = 'block';
-        e.preventDefault();
-    });
-    $closeIcon.addEventListener('click', function(e) {
-        $popup.style.display = 'none';
-        $modal.style.display = 'none';
-        $iframe.src = 'https://www.youtube.com/embed/UM1O-4ll-vU?autoplay=1';
-    });
-    // for escape key
-    document.addEventListener('keyup', function(e) {
-        if (e.key === "Escape") {
-            $popup.style.display = 'none';
-            $modal.style.display = 'none';
-            //Reload time iframe
-            $iframe.src = 'https://www.youtube.com/embed/UM1O-4ll-vU?autoplay=1';
-        }
-    });
-    // click outside of the popup, close it
-    $modal.addEventListener('click', function(e) {
-        $popup.style.display = 'none';
-        $modal.style.display = 'none';
-        $iframe.src = 'https://www.youtube.com/embed/UM1O-4ll-vU?autoplay=1';
-    });
-});

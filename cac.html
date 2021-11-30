@@ -1,68 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="grid wide">
+    <div class="row">
+        <div class="banner-promotion-container col l-6 c-12 m-12">
+            <div class="banner-promotion">
+                <p>PROMOTIONS</p>
+                <h2>Destinations</h2>
+                <div class="banner-promotion-item">
+                    <h3>North America</h3>
+                    <h3>$ 50</h3>
+                </div>
+                <div class="banner-promotion-item">
+                    <h3>North America</h3>
+                    <h3>$ 50</h3>
+                </div>
+                <div class="banner-promotion-item">
+                    <h3>North America</h3>
+                    <h3>$ 50</h3>
+                </div>
+            </div>
+        </div>
+        <div class="banner-video col l-6 c-12 m-12">
+            <a href="#" class="banner-video__play-btn">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: rgb(242, 242, 242);
-        }
-        
-        .flex-container {
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            flex-flow: row;
-            height: 100%;
-            position: absolute;
-            width: 100%;
-            /*flex-wrap:wrap;*/
-        }
-        
-        .box {
-            padding: 20px;
-            color: white;
-            font-size: 22px;
-            background-color: crimson;
-            border: 1px solid white;
-            flex: 1;
-            -webkit-flex: 1;
-            text-align: center;
-            min-width: 200px;
-        }
-        
-        .splash {
-            background-image: url(1.jpg);
-            width: 100%;
-            background-size: cover;
-            background-position: 50% 50%;
-            background-repeat: no-repeat;
-            transition: all 0.6s ease;
-            flex: 10;
-            -webkit-flex: 10;
-        }
-        
-        .flex1:hover {
-            flex: 4;
-            -webkit-flex: 4;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="flex-container">
-        <div class="box splash">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
+                <img src="./assets/img/icon-play.png" alt="icon-play" class="bannver-video__play-btn-icon">
+            </a>
+        </div>
+        <div id="modal-video" class="modal-video"></div>
+        <div class="video-popup">
+            <a class="close-video">&times;</a>
+            <!-- Modal content -->
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe id="iframe-video" width="1200" src="https://www.youtube.com/embed/UM1O-4ll-vU?autoplay=1" frameborder="0" allow="accelerometer; autoplay ; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-</body>
+</div>
 
-</html>
+.about-us-banner { height: 600px; background: url(../img/slide-pk-4.jpg) bottom center / cover no-repeat; display: flex; align-items: center; justify-content: center; position: relative; } .banner-promotion-container {} .banner-promotion { padding: 30px;
+background-color: #fff; } .banner-promotion p { text-align: center; font-size: 1.4rem; color: #9a9a9a; } .banner-promotion h2 { text-align: center; padding-top: 10px; padding-bottom: 30px; font-size: 2.4rem; font-weight: 600; } .banner-promotion-item
+{ font-size: 1.6rem; margin: 40px 0; display: flex; justify-content: space-between; border-bottom: 2px dotted #f1f1f1; } .banner-video { background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/slide-pk-1.jpg?id=1652)
+!important; background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; position: relative; } .banner-video__play-btn { display: block; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%,
+-50%); transform: translate(-50%, -50%); margin: 0; } .bannver-video__play-btn-icon { width: 70px; } .modal-video { display: none; opacity: 0.9; position: fixed; z-index: 11; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color:
+rgba(101, 100, 96, 1); transition: fadeIn 2s linear; } .video-popup { display: none; z-index: 12; position: absolute; top: 200%; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); padding: 10px 20px; border: none; transition:
+fadeIn 2s linear; } @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } .visible { display: block; } .close-video { position: absolute; right: 8px; top: -15px; font-weight: 900; font-size: 28px; color: #fff; padding: 5px 10px; border-bottom:
+none; cursor: pointer; opacity: 0.75; } .close-video:hover { opacity: 1; } .video-wrapper { width: 1000px; } .video-container { position: relative; padding-bottom: 55.25%; height: 0; overflow: hidden; } .video-container iframe { position: absolute; top:
+0; left: 0; width: 100%; height: 100%; }
