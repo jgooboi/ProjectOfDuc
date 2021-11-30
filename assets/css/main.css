@@ -44,10 +44,6 @@
     position: relative;
 }
 
-.header__nav-item :hover {
-    opacity: 0.7;
-}
-
 .header__nav-link {
     text-decoration: none;
     text-transform: uppercase;
@@ -777,7 +773,13 @@ li.header__new-label>a::after {
 }
 
 .faq-content {
-    display: none;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    height: auto;
+}
+
+.faq-content.collapsed {
+    height: 0;
 }
 
 @keyframes fadeIn {
