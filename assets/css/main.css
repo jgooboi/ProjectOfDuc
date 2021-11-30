@@ -770,6 +770,10 @@ img.hover-shadow {
 
 .about-us-banner {
     height: 600px;
+    background: url(../img/slide-pk-4.jpg) bottom center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
